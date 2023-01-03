@@ -1,15 +1,84 @@
-body {
-/* background: #141E30;  fallback for old browsers */
-/* background: -webkit-linear-gradient(to right, #243B55, #141E30);  Chrome 10-25, Safari 5.1-6 */
-/* background: linear-gradient(to right, #243B55, #141E30); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-background-image: url("./assets/imagenes/escritorio.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-
-}
 .material-icons {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    vertical-align: middle;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.card-container {
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+
+.btn-save {
+  margin-right: 10px;
+  width: 120px;
+}
+
+.btn-edit {
+  margin-right: 10px;
+  width: 105px;
+}
+
+.btn-delete {
+  width: 105px;
+}
+
+.btn-cancel {
+  width: 120px;
+}
+
+.card-header {
+  background: #2e3951;
+  color: white;
+  text-transform: capitalize;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.card-footer {
+  text-align: right;
+  background: white;
+  border-top: 0px;
+}
+
+.buttons-form-container {
+  text-align: center;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.fadeInLeftBig {
+  -webkit-animation-name: fadeInLeftBig;
+  animation-name: fadeInLeftBig;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes fadeInLeftBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInLeftBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
 }
